@@ -4,7 +4,7 @@
 int main(){
 
     int i=1, a, b;
-    char e[3];
+    char e[5];
 
     while(1){
         scanf("%d %s %d", &a, e, &b);
@@ -23,7 +23,7 @@ int main(){
         if(!strcmp(e,"<")){
             if(a<b) printf("Case %d: true\n", i++);
             else printf("Case %d: false\n", i++);
-        }
+        } 
         if(!strcmp(e,"<=")){
             if(a<=b) printf("Case %d: true\n", i++);
             else printf("Case %d: false\n", i++);
