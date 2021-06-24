@@ -2,7 +2,7 @@
 #include<string.h>
 
 int main(){
-
+ 
     int i=1, a, b;
     char e[5];
 
